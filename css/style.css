@@ -8,3 +8,43 @@
   --bs-light: #F8F9FA;     
   --bs-dark: #1E1E2F;      
 }
+
+body {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: #357ABD; 
+  border-color: #2d6aa5;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+.navbar {
+  background-color: var(--bs-primary) !important;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.badge.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.bg-custom {
+  background-color: var(--bs-primary) !important;
+  color: white !important;
+}
+.text-custom {
+  color: var(--bs-secondary) !important;
+}
